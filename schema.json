@@ -1,0 +1,76 @@
+{
+	"fields": [
+		{
+			"name": "CorporatePriority",
+			"title": "Corporate Priority",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NumberOfProjects",
+			"title": "Number Of Projects",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "16_17GrossExpenditureForecast",
+			"title": "2016/17 Gross Expenditure Forecast",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "16_17IncomeForecast",
+			"title": "2016/17 Income Forecast",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "16_17NetProgrammeExpenditureForecast",
+			"title": "2016/17 Net Programme Expenditure Forecast",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "StaffNumbersFTEs",
+			"title": "Staff Numbers FTEs",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "16_17NetAdminExpenditureForecast",
+			"title": "2016/17 Net Admin Expenditure Forecast",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "NonDiscretionaryUKS",
+			"title": "Non-Discretionary UKS",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "PercentageOfDiscretionaryExpenditure",
+			"title": "Percentage Of Discretionary Expenditure",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		}
+	]
+}
